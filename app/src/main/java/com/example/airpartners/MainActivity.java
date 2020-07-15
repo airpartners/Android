@@ -23,14 +23,7 @@ public class MainActivity extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
 
-
-        if (Locale.getDefault().toString().startsWith("es")) {
-            webView.loadUrl("https://airpartners-ade.web.app/?lang=es_MX");
-        } else {
-            webView.loadUrl("https://airpartners-ade.web.app/");
-        }
-//        myWebView.loadUrl("https://airpartners.github.io/aq-web-client");
-//        myWebView.loadUrl("http://10.0.2.2:3333/");
+        webView.loadUrl("https://airpartners-ade.web.app/?lang=" + Locale.getDefault().toString());
 }
 
     @Override
