@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 <!--        android:usesCleartextTraffic="true"> &lt;!&ndash; allow http for webview, only needed for testing with localhost &ndash;&gt;-->
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
