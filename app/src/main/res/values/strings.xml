@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Air Partners</string>
+    <string name="webview_error_text">Sorry, we\'re having a problem! Please check your internet
+        connection. If this error persists, please send an email to adeairquality@gmail.com with
+        the error info below.</string>
+    <string name="error_code">Error code:</string>
+    <string name="error_description">Error description:</string>
+    <string name="failing_url">Failing url:</string>
 </resources>
