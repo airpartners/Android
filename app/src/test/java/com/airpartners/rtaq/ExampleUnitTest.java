@@ -1,4 +1,4 @@
-package com.example.airpartners;
+package com.airpartners.rtaq;
 
 import org.junit.Test;
 

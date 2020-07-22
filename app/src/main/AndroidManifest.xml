@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.airpartners">
+    package="com.airpartners.rtaq">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 <!--        android:usesCleartextTraffic="true"> &lt;!&ndash; allow http for webview, only needed for testing with localhost &ndash;&gt;-->
-        <activity android:name=".MainActivity" android:configChanges="orientation|screenSize">
+        <activity android:name="com.airpartners.rtaq.MainActivity" android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

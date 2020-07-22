@@ -1,4 +1,4 @@
-package com.example.airpartners;
+package com.airpartners.rtaq;
 
 import androidx.appcompat.app.AppCompatActivity;
 
